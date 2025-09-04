@@ -1,2 +1,2 @@
 # CODEXINTERN
-Assignment Solutions to CODEXINTERN's Internship Program
+Assignment Solutions for CODEXINTERN's Internship Program
