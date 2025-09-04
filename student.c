@@ -28,7 +28,8 @@ int main() {
 
     load(); // Load existing data
 
-    while (1) {
+    while (1) 
+    {
         printf("\n--- Student Management System ---\n");
         printf("1. Add Student\n");
         printf("2. Display All Students\n");
@@ -87,7 +88,8 @@ void save()
 // Add a new student
 void addStudent() 
 {
-    if (count >= MAX) {
+    if (count >= MAX) 
+    {
         printf("Database full. Cannot add more students.\n");
         return;
     }
@@ -151,3 +153,4 @@ void searchByRoll()
     }
     printf("No record found with roll number %d.\n", roll);
 }
+
