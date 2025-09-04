@@ -90,7 +90,7 @@ int main()
     {
         printf("\n--- Array Stack Menu ---\n");
         printf("1. Push\n2. Pop\n3. Peek/Top\n4. Display\n5. Exit\n");
-        printf("Enter choice: ");
+        printf("Enter choice(1-5): ");
         scanf("%d", &choice);
 
         switch (choice) 
@@ -118,3 +118,4 @@ int main()
         }
     }
 }
+
